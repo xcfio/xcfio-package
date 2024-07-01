@@ -31,6 +31,6 @@ jobs:
               run: pnpm run build
 
             - name: Publish
-              run: pnpm publish --access latest --provenance --no-git-checks
+              run: pnpm publish --provenance --no-git-checks
               env:
                   NODE_AUTH_TOKEN: ${{secrets.NODETOKEN}}
