@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "description": "A simple package that monitor server running time",
     "author": "xcfio (SoftwareX Plus)",
-    "homepage": "https://github.com/softwarexplus/xcfio#readme",
+    "homepage": "https://github.com/softwarexplus/xcfio/wiki",
     "type": "commonjs",
     "main": "out/index.js",
     "license": "Apache-2.0",
@@ -13,14 +13,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/SoftwareXPlus/xcfio"
+        "url": "https://github.com/softwarexplus/xcfio"
     },
     "bugs": {
         "url": "https://github.com/softwarexplus/xcfio/issues"
     },
     "funding": {
         "type": "patreon",
-        "url": "https://www.patreon.com/SoftwareXPlus"
+        "url": "https://www.patreon.com/softwarexplus"
     },
     "publishConfig": {
         "access": "public",
