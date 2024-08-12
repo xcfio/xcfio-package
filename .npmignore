@@ -1,0 +1,10 @@
+node_module/
+.github/
+src/
+.gitignore
+.prettierignore
+.prettierrc
+LICENSE
+tsconfig.json
+*.test.js
+*.test.d.ts

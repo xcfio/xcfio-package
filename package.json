@@ -1,14 +1,14 @@
 {
     "name": "xcfio",
-    "version": "0.0.1",
-    "description": "A simple package that monitor server running time",
+    "version": "0.0.2",
+    "description": "A simple package for handling a discord bot",
     "author": "xcfio (SoftwareX Plus)",
-    "homepage": "https://github.com/softwarexplus/xcfio/wiki",
+    "homepage": "https://github.com/softwarexplus/xcfio#readme",
     "type": "commonjs",
     "main": "out/index.js",
     "license": "Apache-2.0",
     "scripts": {
-        "build": "tsc",
+        "build": "(node --eval \"require('node:fs').rmSync('out', { recursive: true, force: true })\" || true) && tsc",
         "test": "tsc --noEmit"
     },
     "repository": {
@@ -27,7 +27,8 @@
         "tag": "latest"
     },
     "devDependencies": {
-        "@types/node": "^20.8.3",
-        "typescript": "^5.2.2"
+        "@types/node": "*",
+        "discord.js": "*",
+        "typescript": "*"
     }
 }
