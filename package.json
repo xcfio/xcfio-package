@@ -20,15 +20,14 @@
     },
     "funding": {
         "type": "patreon",
-        "url": "https://www.patreon.com/softwarexplus"
+        "url": "https://www.patreon.com/xcfio"
     },
     "publishConfig": {
         "access": "public",
         "tag": "latest"
     },
     "devDependencies": {
-        "@types/node": "*",
-        "discord.js": "*",
-        "typescript": "*"
+        "@types/node": "^22.10.5",
+        "discord.js": "^14.17.3"
     }
 }
