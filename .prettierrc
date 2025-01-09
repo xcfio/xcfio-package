@@ -1,8 +1,9 @@
 {
-    "trailingComma": "none",
+    "endOfLine": "lf",
     "arrowParens": "always",
-    "useTabs": false,
+    "trailingComma": "none",
     "semi": false,
+    "useTabs": false,
     "singleQuote": false,
     "bracketSpacing": true,
     "tabWidth": 4,

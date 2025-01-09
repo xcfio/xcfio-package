@@ -81,8 +81,6 @@ web_modules/
 .env.test.local
 .env.production.local
 .env.local
-pnpm-lock.yaml
-package-lock.json
 config*.json
 *.js
 *.csv

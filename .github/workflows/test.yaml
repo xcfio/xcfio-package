@@ -1,4 +1,4 @@
-name: Code test
+name: Test
 
 on:
     push:
@@ -14,17 +14,17 @@ jobs:
         steps:
             # Setup Action
             - name: Setup Action
-              uses: actions/checkout@v3
+              uses: actions/checkout@v4
 
             # Setup Node.js
             - name: Setup Node.js
-              uses: actions/setup-node@v2
+              uses: actions/setup-node@v4
               with:
-                  node-version: "22"
+                  node-version: "latest"
 
             # Setup PNPM
             - name: Setup PNPM
-              uses: pnpm/action-setup@v2
+              uses: pnpm/action-setup@v4
               with:
                   version: "latest"
 
@@ -34,4 +34,4 @@ jobs:
 
             # Run test
             - name: Run test
-              run: tsc --noEmit
+              run: node --run test
