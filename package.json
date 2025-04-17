@@ -3,7 +3,7 @@
     "version": "0.0.3",
     "description": "A simple package for handling a discord bot",
     "author": "xcfio (SoftwareX Plus)",
-    "homepage": "https://github.com/softwarexplus/xcfio#readme",
+    "homepage": "https://github.com/softwarexplus/xcfio-package#readme",
     "type": "commonjs",
     "main": "out/index.js",
     "license": "Apache-2.0",
@@ -13,10 +13,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/softwarexplus/xcfio"
+        "url": "https://github.com/softwarexplus/xcfio-package"
     },
     "bugs": {
-        "url": "https://github.com/softwarexplus/xcfio/issues"
+        "url": "https://github.com/softwarexplus/xcfio-package/issues"
     },
     "funding": {
         "type": "patreon",
