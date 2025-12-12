@@ -27,7 +27,7 @@
         "tag": "latest"
     },
     "devDependencies": {
-        "@types/node": "^24.0.14",
+        "@types/node": "^25.0.0",
         "discord.js": "^14.17.3"
     }
 }
